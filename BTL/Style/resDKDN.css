@@ -1,0 +1,24 @@
+﻿.col {
+    margin-top: 8px;
+}
+
+@media(max-width: 920px) {
+
+    .modal__inner {
+        width: 40%;
+    }
+
+}
+@media(max-width: 739px) {
+
+    .modal__inner {
+        width: 50%;
+    }
+}
+
+@media(max-width: 670px) {
+
+    .modal__inner {
+        width: 90%;
+    }
+}

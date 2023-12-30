@@ -1,0 +1,498 @@
+﻿.col {
+    margin-top: 8px;
+}
+
+@media(max-width: 739px) {
+
+    /* Header */
+    .header-navbar {
+        width: 100%;
+    }
+
+    .promotion-header {
+        display: none;
+    }
+
+    .contact-header {
+        display: none;
+    }
+
+    .logo-header {
+        width: 20%;
+    }
+
+    .img-logo {
+        width: 80%;
+        margin: auto;
+    }
+
+    .box-search_header {
+        width: 60%;
+    }
+
+    .input-header {
+        font-size: 14px;
+        width: 82%;
+    }
+
+    .icon-search {
+        width: 18%;
+    }
+
+    .box-account {
+        display: none;
+    }
+
+    .box-cart {
+        width: 10%;
+        font-size: 17px;
+    }
+
+    .account-header {
+        width: 10%;
+        justify-content: center;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    /* Category */
+    .category-outstand__list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        font-size: 12px;
+        margin: 0 0 0 4px;
+        line-height: 20px;
+        overflow-x: auto;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .category-outstand {
+        height: 501px;
+        display: flex;
+    }
+.category-Listproduct
+
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: aquamarine;
+}
+    
+
+    .category-item_name {
+        color: black;
+        font-size: 13px;
+    }
+
+    .category-item_menu {
+        font-size: 11px;
+    }
+
+    /* Category outstanding*/
+    .category-outstand {
+        height: 52px;
+        display: flex;
+    }
+
+    .category-outstand__list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        font-size: 12px;
+        margin: 0 0 0 4px;
+        line-height: 20px;
+        overflow-x: auto;
+    }
+
+
+    .category-outstand ul::-webkit-scrollbar {
+        width: 0 !important;
+        display: none;
+    }
+
+    .category-outstand__title {
+        margin: 0 4px 0 0;
+        padding: 0;
+        background-color: #fff;
+        border-radius: 0;
+        color: #de581a;
+        font-size: 13px;
+        flex-shrink: 0;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 760px;
+    }
+
+    .category-outstand__list > li {
+        margin: 0;
+        padding: 0;
+        flex-shrink: 0;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 10px;
+        padding: 0 12px;
+        border-right: 1px solid #333;
+    }
+
+    /* Banner 1 */
+    .banner-1 {
+        height: 220px;
+    }
+
+    .img-banner_fisrt {
+        width: 100%;
+    }
+
+    .img-banner_last {
+        display: none;
+    }
+
+    /* Content */
+    .linkProduct {
+        color: #333;
+    }
+
+    .product_img {
+        width: 64%;
+        height: 210px;
+        margin: 16px 18% 4px 18%;
+    }
+
+    .product_nameproduct {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product_price,
+    .product_vote {
+        justify-content: space-around;
+    }
+
+    .product-list-star,
+    .price-new {
+        margin: 0;
+    }
+
+    .product-item-brand {
+        margin-left: 15%;
+    }
+
+    .product-item-cart {
+        margin-left: 32%;
+    }
+
+    /* Banner 2 */
+    .banner-2 {
+        height: 200px;
+    }
+
+    .img-banner-4 {
+        width: 59%;
+    }
+
+    .img-banner-6 {
+        width: 40%;
+    }
+
+    /* Footer */
+    .footer {
+    }
+
+    .bank-cart,
+    .protected {
+        padding-left: 14px;
+    }
+
+    .bank-cart,
+    .footer-connecting {
+        margin-left: 0;
+    }
+
+    .home,
+    .footer-systemWeb {
+        margin-right: 0;
+    }
+
+    .bank-cart-title1,
+    .transport-title1,
+    .protected-title1,
+    .home-title1 {
+        font-size: 12px;
+    }
+
+    .bank-cart-title2,
+    .transport-title2,
+    .protected-title2,
+    .home-title2 {
+        font-size: 13px;
+    }
+
+    .footer-connecting,
+    .footer-companyInformation {
+        padding-left: 12px;
+    }
+}
+@media(max-width: 600px) {
+
+    /* Header */
+    .header-navbar {
+        width: 100%;
+    }
+
+    .promotion-header {
+        display: none;
+    }
+
+    .contact-header {
+        display: none;
+    }
+
+    .logo-header {
+        width: 20%;
+    }
+
+    .img-logo {
+        width: 80%;
+        margin: auto;
+    }
+
+    .box-search_header {
+        width: 60%;
+    }
+
+    .input-header {
+        font-size: 14px;
+        width: 82%;
+    }
+
+    .icon-search {
+        width: 18%;
+    }
+
+    .box-account {
+        display: none;
+    }
+
+    .box-cart {
+        width: 10%;
+        font-size: 17px;
+    }
+
+    .account-header {
+        width: 10%;
+        justify-content: center;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    /* Category */
+    .category-Listproduct {
+        display: flex;
+        justify-content: space-around;
+        flex-direction:column;
+        flex-wrap:wrap;
+    }
+
+    .category-item_name {
+        color: black;
+        font-size: 13px;
+    }
+
+    .category-item_menu {
+        font-size: 11px;
+    }
+
+    /* Category outstanding*/
+    .category-outstand {
+        height: 52px;
+        display: flex;
+    }
+
+    .category-outstand__list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        font-size: 12px;
+        margin: 0 0 0 4px;
+        line-height: 20px;
+        overflow-x: auto;
+    }
+
+
+    .category-outstand ul::-webkit-scrollbar {
+        width: 0 !important;
+        display: none;
+    }
+
+    .category-outstand__title {
+        margin: 0 4px 0 0;
+        padding: 0;
+        background-color: #fff;
+        border-radius: 0;
+        color: #de581a;
+        font-size: 13px;
+        flex-shrink: 0;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 760px;
+    }
+
+    .category-outstand__list > li {
+        margin: 0;
+        padding: 0;
+        flex-shrink: 0;
+        display: block;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 10px;
+        padding: 0 12px;
+        border-right: 1px solid #333;
+    }
+
+    /* Banner 1 */
+    .banner-1 {
+        height: 220px;
+    }
+
+    .img-banner_fisrt {
+        width: 100%;
+    }
+
+    .img-banner_last {
+        display: none;
+    }
+
+    /* Content */
+    .linkProduct {
+        color: #333;
+    }
+
+    .product_img {
+        width: 64%;
+        height: 210px;
+        margin: 16px 18% 4px 18%;
+    }
+
+    .product_nameproduct {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product_price,
+    .product_vote {
+        justify-content: space-around;
+    }
+
+    .product-list-star,
+    .price-new {
+        margin: 0;
+    }
+
+    .product-item-brand {
+        margin-left: 15%;
+    }
+
+    .product-item-cart {
+        margin-left: 32%;
+    }
+
+    /* Banner 2 */
+    .banner-2 {
+        height: 200px;
+    }
+
+    .img-banner-4 {
+        width: 59%;
+    }
+
+    .img-banner-6 {
+        width: 40%;
+    }
+
+    /* Footer */
+    .footer {
+    }
+
+    .bank-cart,
+    .protected {
+        padding-left: 14px;
+    }
+
+    .bank-cart,
+    .footer-connecting {
+        margin-left: 0;
+    }
+
+    .home,
+    .footer-systemWeb {
+        margin-right: 0;
+    }
+
+    .bank-cart-title1,
+    .transport-title1,
+    .protected-title1,
+    .home-title1 {
+        font-size: 12px;
+    }
+
+    .bank-cart-title2,
+    .transport-title2,
+    .protected-title2,
+    .home-title2 {
+        font-size: 13px;
+    }
+
+    .footer-connecting,
+    .footer-companyInformation {
+        padding-left: 12px;
+    }
+    .category-outstand__list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        font-size: 12px;
+        margin: 0 0 0 4px;
+        line-height: 20px;
+        overflow-x: auto;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .category-outstand {
+        height: 151px;
+        display: flex;
+    }
+    .category-outstand__list {
+        width: 100%;
+        height: 100%;
+        display: none;
+        font-size: 12px;
+        margin: 0 0 0 4px;
+        line-height: 20px;
+        overflow-x: auto;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+}

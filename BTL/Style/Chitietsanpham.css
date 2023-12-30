@@ -1,0 +1,111 @@
+﻿.show_product {
+    margin: 18px 0;
+}
+
+.name_product {
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 7px;
+    font-family: 'Roboto-Medium';
+    font-weight: bold;
+}
+
+.box-imageProduct {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+}
+
+.product-reduce {
+    width: 70px;
+    background: #ed1c24;
+    font-size: 13px;
+    padding: 1px 8px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.imgProduct {
+    width: 80%;
+}
+
+.box-inforProduct {
+    margin-top: 4px;
+    width: 80%;
+}
+
+.box-price {
+    padding-top: 14px;
+    border-top: 1px solid #000;
+}
+
+.box-priceNew {
+    color: #ed1c24;
+    font-size: 24px;
+}
+
+.box-priceOld {
+    margin-left: 12px;
+    font-size: 16px;
+    text-decoration: line-through;
+    color: black;
+}
+
+.box-advantages_title {
+    background: #34a105;
+    color: #fff;
+    display: flex;
+    flex: 1;
+    padding: 2px 8px;
+    margin-top: 12px;
+}
+
+.box-advantages {
+    border: 1px dashed #ccc;
+    padding: 0 10px 22px 10px;
+}
+
+.box-advantages-item1,
+.box-advantages-item2,
+.box-advantages-item3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages-item1-title {
+    background-color: #ffff00;
+    color: #ed1c24;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.box-advantages-item2,
+.box-advantages-item3 {
+    margin-top: 8px;
+    font-size: 15px;
+}
+
+.advantages-item2-title,
+.advantages-item3-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.advantages-item2-info {
+    margin-top: 4px;
+}
+
+.buy-now {
+    padding: 16px 24px;
+    border: none;
+    background-color: #d92028;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .buy-now:hover {
+        background-color: #ffdd00;
+    }
